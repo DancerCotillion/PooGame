@@ -38,6 +38,8 @@ Game::Game( MainWindow& wnd )
 		poos[i].Init( xDist( rng ),yDist( rng ),vDist( rng ),vDist( rng ) );
 	}
 	title.Play();
+
+	//test change
 }
 
 void Game::Go()
