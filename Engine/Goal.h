@@ -18,7 +18,7 @@ public:
 	bool TestCollision( const Dude& dude ) const
 	{
 		const float duderight = dude.GetPos().x + dude.GetWidth();
-		const float dudebottom = dude.GetPos().x + dude.GetHeight();
+		const float dudebottom = dude.GetPos().y + dude.GetHeight();
 		const float pooright = pos.x + dimension;
 		const float poobottom = pos.y + dimension;
 
