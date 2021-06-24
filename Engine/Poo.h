@@ -2,6 +2,7 @@
 
 #include "Graphics.h"
 #include "Dude.h"
+#include "Vec2.h"
 
 class Poo
 {

@@ -21,6 +21,7 @@
 #include "MainWindow.h"
 #include "Game.h"
 #include <random>
+#include "Vec2.h"
 
 Game::Game( MainWindow& wnd )
 	:
